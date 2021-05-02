@@ -1,0 +1,20 @@
+.padding:hover{
+        margin-top: 20px;
+}
+#card-id{
+    /* background-color: #17A589; */
+    background-color: #0A192F;
+}
+.borders{
+    border-bottom: 3px solid #138D75;
+}
+
+.footer{
+    background-color : #0A192F;
+}
+.footer-icon{
+    color: whitesmoke;
+    font-size: 25px;
+    margin-right: 15px;
+}
+  

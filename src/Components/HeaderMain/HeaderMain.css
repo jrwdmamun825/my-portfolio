@@ -1,0 +1,21 @@
+#headerMain{
+    height: 450px;
+}
+#about {
+    background-color: #1ABC9C;
+}
+.name{
+    color: #1ABC9C;
+    
+}
+.type{
+    color: #1ABC9C;
+}
+.icons{
+    margin-left: 15px;
+    font-size: 30px;
+    color: aliceblue;
+}
+.icons:hover{
+    color: aliceblue;
+}
