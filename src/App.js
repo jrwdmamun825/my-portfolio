@@ -10,10 +10,11 @@ import Contact from './Components/Contact/Contact';
 import Header from './Components/Header/Header';
 import Home from './Components/Home/Home';
 import Projects from './Components/Projects/Projects';
+import './App.css'
 
 const App = () => {
   return (
-    <div>
+    <div id="main-div">
       <Router>
         <Header></Header>
         <Switch>
