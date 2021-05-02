@@ -21,6 +21,7 @@
 }
 .section{
     background-color: #0A192F;
+    max-width: 100%;
 }
 .familar{
     color: #1F618D;
