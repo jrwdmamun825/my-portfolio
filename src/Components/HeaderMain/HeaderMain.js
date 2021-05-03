@@ -72,10 +72,10 @@ const HeaderMain = () => {
                 </div>
             </div>
             <div className="text-center">
-                <a className="icons" href=""> <FontAwesomeIcon icon={faGithub} /></a>
-                <a className="icons" href=""> <FontAwesomeIcon icon={faLinkedin} /></a>
-                <a className="icons" href=""> <FontAwesomeIcon icon={faFacebook} /></a>
-                <h6 className="text-white mt-2"> <FontAwesomeIcon icon={faEnvelope} /> abdullah.mamun.0110@gmail.com</h6>
+                <a className="icons" href="https://github.com/jrwdmamun825" target="_blank"> <FontAwesomeIcon icon={faGithub} /></a>
+                <a className="icons" href="https://www.linkedin.com/in/abdullah-mamun-0110/" target="_blank"> <FontAwesomeIcon icon={faLinkedin} /></a>
+                <a className="icons" href="https://www.facebook.com/abdullah.Mamun772/" target="_blank"> <FontAwesomeIcon icon={faFacebook} /></a>
+                <h6 className="text-white mt-2" target="_blank"> <FontAwesomeIcon icon={faEnvelope} /> abdullah.mamun.0110@gmail.com</h6>
             </div>
         </div>
     );

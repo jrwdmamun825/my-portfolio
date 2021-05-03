@@ -19,13 +19,13 @@ const Projects = () => {
                             <h5 className="card-title">Phone Repair service</h5>
                             <p>A full stact phone service web application where user can get repair related service.</p>
                             <div>
-                                <p><small className="tech me-2 bg-dark">React js</small> <small className="tech bg-dark me-2">Node Js</small> <small className="tech me-2 bg-dark"> MongoDb</small> <small className="tech me-2 bg-dark">React Router</small></p>
+                                <p><small className="tech me-2 bg-secondary">React js</small> <small className="tech bg-dark me-2">Node Js</small> <small className="tech me-2 bg-dark"> MongoDb</small> <small className="tech me-2 bg-dark">React Router</small></p>
                                 <p><small className="tech bg-dark">Bootstrap5</small> <span className="tech me-2 bg-dark">Firebase</span></p>
                             </div>
                         </div>
                         <div class="card-footer footer">
-                            <a className="footer-icon" href=""> <FontAwesomeIcon icon={faGithub} /></a>
-                            <a className="footer-icon" href=""> <FontAwesomeIcon icon={faExternalLinkSquareAlt} /></a>
+                            <a className="footer-icon" href="https://github.com/jrwdmamun825/phone-repair-services" target="_blank"> <FontAwesomeIcon icon={faGithub} /></a>
+                            <a className="footer-icon" href="https://phone-repair-a63c6.web.app/" target="_blank"> <FontAwesomeIcon icon={faExternalLinkSquareAlt} /></a>
 
                         </div>
                     </div>
@@ -34,7 +34,7 @@ const Projects = () => {
             </div>
             <div className="col-md-4 ms-1 mb-4 padding">
                 <Fade right>
-                    <div className="card shadow">
+                    <div className="card">
                         <div>
                             <img id="projectId" className="img-fluid card-img-top" src="https://i.ibb.co/Fx48Jr7/bookstroe.png" alt="" />
                         </div>
@@ -47,8 +47,8 @@ const Projects = () => {
                             </div>
                         </div>
                         <div class="card-footer footer">
-                            <a className="footer-icon" href=""> <FontAwesomeIcon icon={faGithub} /></a>
-                            <a className="footer-icon" href=""> <FontAwesomeIcon icon={faExternalLinkSquareAlt} /></a>
+                            <a className="footer-icon" href="https://github.com/jrwdmamun825/book-stores-client" target="_blank"> <FontAwesomeIcon icon={faGithub} /></a>
+                            <a className="footer-icon" href="https://book-store-7c419.web.app/" target="_blank"> <FontAwesomeIcon icon={faExternalLinkSquareAlt} /></a>
 
                         </div>
 
@@ -71,8 +71,8 @@ const Projects = () => {
                             </div>
                         </div>
                         <div class="card-footer footer">
-                            <a className="footer-icon" href=""> <FontAwesomeIcon icon={faGithub} /></a>
-                            <a className="footer-icon" href=""> <FontAwesomeIcon icon={faExternalLinkSquareAlt} /></a>
+                            <a className="footer-icon" href="" target="_blank"> <FontAwesomeIcon icon={faGithub} /></a>
+                            <a className="footer-icon" href="https://ticket-travel.web.app/" target="_blank"> <FontAwesomeIcon icon={faExternalLinkSquareAlt} /></a>
 
                         </div>
                     </div>
@@ -91,8 +91,8 @@ const Projects = () => {
                                 <small className="tech bg-dark">Bootstrap5</small></p>
                         </div>
                         <div class="card-footer footer">
-                            <a className="footer-icon" href=""> <FontAwesomeIcon icon={faGithub} /></a>
-                            <a className="footer-icon" href=""> <FontAwesomeIcon icon={faExternalLinkSquareAlt} /></a>
+                            <a className="footer-icon" href="https://github.com/jrwdmamun825/responsive-shopping-website" target="_blank"> <FontAwesomeIcon icon={faGithub} /></a>
+                            <a className="footer-icon" href="https://jrwdmamun825.github.io/responsive-shopping-website/" target="_blank"> <FontAwesomeIcon icon={faExternalLinkSquareAlt} /></a>
 
                         </div>
                     </div>
