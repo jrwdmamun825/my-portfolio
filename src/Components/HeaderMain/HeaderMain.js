@@ -39,11 +39,18 @@ const HeaderMain = () => {
                                                 })
                                                 .pauseFor(2500)
                                                 .deleteAll()
+                                            typewriter.typeString('React Developer')
+                                                .callFunction(() => {
+                                                    console.log('String typed out!');
+                                                })
+                                                .pauseFor(3000)
+                                                .deleteAll()
                                             typewriter.typeString('Frontend Developer')
                                                 .callFunction(() => {
                                                     console.log('All strings were deleted');
                                                 })
                                                 .start();
+
                                         }}
                                     />
                                 </small>
@@ -52,11 +59,16 @@ const HeaderMain = () => {
 
                     </div>
                     <p className="text-white">A self-motivated and enthusiastic web developer with a deep interest in JavaScript & react js.I like to code things from srcatch and enjoy bringing ideas to life in the browser</p>
-                    <Link id="about" className="btn btn-brand text-white text-decoration-none" to="/about">About me</Link>
-                    <a id="about" className="text-decoration-none btn btn-brand text-white ms-5 download" href="https://cutt.ly/2bl0JaL">
-                    <FontAwesomeIcon icon={faDownload} />
+
+
+                    <Link to="/about">
+                        <button id="about" className="btn btn-brand mt-2 text-white text-decoration-none">about me</button>
+                    </Link>
+                    <a id="about" className="text-decoration-none btn btn-brand text-white ms-3 mt-2 download" href="https://cutt.ly/2bl0JaL">
+                        <FontAwesomeIcon icon={faDownload} />
                         <span className="ms-2">download resume</span>
                     </a>
+
                 </div>
             </div>
             <div className="text-center">
