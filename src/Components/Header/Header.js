@@ -15,19 +15,19 @@ const Header = () => {
                 <Nav className="ms-auto me-5">
                     <ul className="list-unstyled navbar-nav">
                         <li>
-                            <NavLink className="ms-5 link text-decoration-none text-white p-2" activeClassName="selected" to="/home">Home</NavLink>
+                            <NavLink className="ms-5 link text-decoration-none text-white mb-2" activeClassName="selected" to="/home">Home</NavLink>
                         </li>
                         <li>
-                            <NavLink className="ms-5 link text-decoration-none text-white p-2" to="/about" activeClassName="selected">About</NavLink>
+                            <NavLink className="ms-5 link text-decoration-none text-white mb-2" to="/about" activeClassName="selected">About</NavLink>
                         </li>
                         <li>
-                            <NavLink className="ms-5 link text-decoration-none text-white p-2" to="/myWorks" activeClassName="selected">My Work</NavLink>
+                            <NavLink className="ms-5 link text-decoration-none text-white mb-2" to="/myWorks" activeClassName="selected">My Work</NavLink>
                         </li>
                         <li>
-                            <NavLink className="ms-5 link text-decoration-none text-white p-2" to="/blog" activeClassName="selected">Blog</NavLink>
+                            <NavLink className="ms-5 link text-decoration-none text-white mb-2" to="/blog" activeClassName="selected">Blog</NavLink>
                         </li>
                         <li>
-                            <NavLink className="ms-5 link text-decoration-none text-white p-2" to="/contact" activeClassName="selected">Contact</NavLink>
+                            <NavLink className="ms-5 link text-decoration-none text-white mb-2" to="/contact" activeClassName="selected">Contact</NavLink>
                         </li>
                         <li>
                             <a className="text-decoration-none btn btn-brand text-white ms-5 download" href="https://cutt.ly/2bl0JaL">

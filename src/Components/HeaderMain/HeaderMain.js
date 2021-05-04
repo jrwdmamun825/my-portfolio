@@ -58,7 +58,7 @@ const HeaderMain = () => {
                         </div>
 
                     </div>
-                    <p className="text-white">A self-motivated and enthusiastic web developer with a deep interest in JavaScript & react js.I like to code things from srcatch and enjoy bringing ideas to life in the browser</p>
+                    <p className="text-white">A self-motivated and enthusiastic web developer with a deep interest in JavaScript & react js.I like to code things from srcatch and enjoy bringing ideas to life in the browser.I am experienced in using JavaScript, as well as the React framework, to develop front-end applications. </p>
 
 
                     <Link to="/about">

@@ -17,10 +17,16 @@ const Projects = () => {
                         <img id="projectId" className="img-fluid card-img-top" src="https://i.ibb.co/dkvXgwf/phone.png" alt="" />
                         <div id="card-id" className="card-body text-white">
                             <h5 className="card-title">Phone Repair service</h5>
-                            <p>A full stact phone service web application where user can get repair related service.</p>
+                            <p>A full stact single page phone service web application.</p>
+                            <ul>
+                                <li>specific user order & show user order details</li>
+                                <li> using firebase authentication method</li>
+                                <li>separate user and admin dashboard </li>
+                                <li>admin can control dashboard</li>
+                            </ul>
                             <div>
-                                <p><small className="tech me-2 bg-secondary">React js</small> <small className="tech bg-dark me-2">Node Js</small> <small className="tech me-2 bg-dark"> MongoDb</small> <small className="tech me-2 bg-dark">React Router</small></p>
-                                <p><small className="tech bg-dark">Bootstrap5</small> <span className="tech me-2 bg-dark">Firebase</span></p>
+                                <p><small className="tech me-2">React js</small> <small className="tech bg-dark me-2">Node Js</small> <small className="tech me-2 "> MongoDb</small></p>
+                                <p> <small className="tech me-2 ">React Router</small> <small className="tech bg-dark">Bootstrap5</small> <span className="tech me-2">Firebase</span></p>
                             </div>
                         </div>
                         <div class="card-footer footer">
@@ -40,10 +46,17 @@ const Projects = () => {
                         </div>
                         <div id="card-id" className="card-body text-white">
                             <h5 className="card-title">Book Store Online</h5>
-                            <p>A full stact online Book store where user can buy and order available book.</p>
+                            <p>A full stact single page online Book store.</p>
+                            <ul>
+                                <li>data load from mongodb database</li>
+                                <li>specific user order , details & payment info</li>
+                                <li>using firebase authentication method</li>
+                                <li>using spinner method when data load from mongodb</li>
+                            </ul>
+
                             <div>
-                                <p><small className="tech me-2 bg-dark">React js</small> <small className="tech bg-dark me-2">Node Js</small> <small className="tech me-2 bg-dark"> MongoDb</small> <small className="tech me-2 bg-dark">React Router</small></p>
-                                <p><small className="tech bg-dark">Bootstrap5</small> <span className="tech me-2 bg-dark">Firebase</span></p>
+                                <p><small className="tech me-2 bg-dark">React js</small> <small className="tech me-2">Node Js</small> <small className="tech me-2 bg-dark"> MongoDb</small> </p> <p> <small className="tech me-2">React Router</small>
+                                <small className="tech bg-dark">Bootstrap5</small> <span className="tech me-2">Firebase</span></p>
                             </div>
                         </div>
                         <div class="card-footer footer">
@@ -64,10 +77,10 @@ const Projects = () => {
                         </div>
                         <div id="card-id" className="card-body text-white">
                             <h5 className="card-title">Ticket Travel</h5>
-                            <p>Simple Frontend react base Ticket Travel web application.</p>
+                            <p>Simpl Frontend react base Ticket Travel web application.</p>
                             <div>
-                                <p><small className="tech me-2 bg-dark">React js</small> <small className="tech me-2 bg-dark">React Router</small>
-                                    <small className="tech bg-dark">Bootstrap5</small> <small className="tech me-2 bg-dark">Firebase</small></p>
+                                <p><small className="tech me-2">React js</small> <small className="tech me-2 bg-dark">React Router</small>
+                                    <small className="tech">Bootstrap5</small> <small className="tech me-2 bg-dark">Firebase</small></p>
                             </div>
                         </div>
                         <div class="card-footer footer">
@@ -87,8 +100,8 @@ const Projects = () => {
                         <div id="card-id" className="card-body text-white">
                             <h5 className="card-title">Panguen Fashion</h5>
                             <p>Simple Html , css and bootstrap5 shopping websites.</p>
-                            <p><small className="tech me-2 bg-dark">Html</small> <small className="tech me-2 bg-dark">Css3</small>
-                                <small className="tech bg-dark">Bootstrap5</small></p>
+                            <p><small className="tech me-2 ">Html</small> <small className="tech me-2 bg-dark">Css3</small>
+                                <small className="tech">Bootstrap5</small></p>
                         </div>
                         <div class="card-footer footer">
                             <a className="footer-icon" href="https://github.com/jrwdmamun825/responsive-shopping-website" target="_blank"> <FontAwesomeIcon icon={faGithub} /></a>
