@@ -14,7 +14,7 @@ import './App.css'
 
 const App = () => {
   return (
-    <div id="main-div">
+    <div id="main-div" style={{backgroundColor: '#042069'}}>
       <Router>
         <Header></Header>
         <Switch>

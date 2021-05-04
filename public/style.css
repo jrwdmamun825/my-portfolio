@@ -1,5 +1,7 @@
 *{
-	font-family: 'Merriweather', serif;
+	/* font-family: 'Noto Sans JP', sans-serif; */
+	font-family: 'Mukta', sans-serif;
+	
 }
 .ball {
 	position: absolute;
