@@ -78,6 +78,12 @@ const Projects = () => {
                         <div id="card-id" className="card-body text-white">
                             <h5 className="card-title">Ticket Travel</h5>
                             <p>Simpl Frontend react base Ticket Travel web application.</p>
+                            <ul>
+                                <li>It's simple react project</li>
+                                <li>using singup and signin feature</li>
+                                <li>I has google login featue</li>
+                                <li>and using private router and destination data</li>
+                            </ul>
                             <div>
                                 <p><small className="tech me-2">React js</small> <small className="tech me-2 bg-dark">React Router</small>
                                     <small className="tech">Bootstrap5</small> <small className="tech me-2 bg-dark">Firebase</small></p>

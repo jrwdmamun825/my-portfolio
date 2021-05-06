@@ -21,7 +21,7 @@ const Contact = () => {
 
                 <div className="col-md-5 mt-2">
                     <h5>contact <span className="touchs-color">Form</span></h5>
-                    <form action="">
+                    <form  action="https://formspree.io/abdullah.mamun.0110@gmail.com" method="post">
                         <div className="form-group">
                             <input className="form-control w-75 mt-3" placeholder="Your name" type="text" />
                         </div>

@@ -21,7 +21,7 @@ const Header = () => {
                             <NavLink className="ms-5 link text-decoration-none text-white mb-2" to="/about" activeClassName="selected">About</NavLink>
                         </li>
                         <li>
-                            <NavLink className="ms-5 link text-decoration-none text-white mb-2" to="/myWorks" activeClassName="selected">My Work</NavLink>
+                            <NavLink className="ms-5 link text-decoration-none text-white mb-2" to="/myWorks" activeClassName="selected">My Works</NavLink>
                         </li>
                         <li>
                             <NavLink className="ms-5 link text-decoration-none text-white mb-2" to="/blog" activeClassName="selected">Blog</NavLink>
@@ -30,7 +30,7 @@ const Header = () => {
                             <NavLink className="ms-5 link text-decoration-none text-white mb-2" to="/contact" activeClassName="selected">Contact</NavLink>
                         </li>
                         <li>
-                            <a className="text-decoration-none btn btn-brand text-white ms-5 download" href="https://cutt.ly/2bl0JaL">
+                            <a className="text-decoration-none btn btn-brand ms-5 resume" href="https://cutt.ly/2bl0JaL">
                                 <FontAwesomeIcon icon={faDownload} /> download resume
                             </a>
                         </li>
